@@ -1,6 +1,9 @@
 import pytest
 
-from helloworld.helloworld import return_me
+from helloworld import helloworld
 
 def test_print_me():
-	assert(return_me('hi') == 'hi')
+	assert(helloworld.return_me('hi') == 'hi')
+
+def test_plus_me():
+	assert(helloworld.plus_me(99) == 100)
