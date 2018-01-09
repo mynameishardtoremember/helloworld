@@ -12,11 +12,12 @@ from setuptools import setup
 from pip.req import parse_requirements
 from pip.download import PipSession
 
+print find_packages()
+
 setup(
     name='HelloWorld',
     version='20180108',
     packages=find_packages(),
-    package_dir={'': ''},
     include_package_data=True,
     zip_safe=False,
     py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],
