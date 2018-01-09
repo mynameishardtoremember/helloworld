@@ -17,7 +17,8 @@ print find_packages()
 setup(
     name='HelloWorld',
     version='20180108',
-    packages=find_packages(),
+    packages=find_packages('src'),
+    package_dir={'': 'src'},
     include_package_data=True,
     zip_safe=False,
     py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],
