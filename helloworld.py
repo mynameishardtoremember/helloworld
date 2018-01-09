@@ -2,7 +2,7 @@
 #!/usr/bin/env python
 
 def main(*unused_args):
-  print_me('hello world!');
+  print_me('hello world!')
 
 def print_me(banner):
   print banner
