@@ -3,3 +3,6 @@
 
 def return_me(gift):
   return gift
+
+def plus_me(n):
+  return n+1
