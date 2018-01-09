@@ -1,0 +1,6 @@
+language: python
+python:
+  - "3.6"
+  - "nightly"
+script:
+  - pytest # or py.test for Python versions 3.5 and below
