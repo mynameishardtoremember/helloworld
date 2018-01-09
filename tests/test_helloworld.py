@@ -1,6 +1,6 @@
 import pytest
 
-import HelloWorld
+from helloworld.helloworld import helloworld
 
 def test_print_me():
-	assert(print_me('hi') == 'hi')
+	assert(return_me('hi') == 'hi')
