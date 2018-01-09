@@ -7,3 +7,6 @@ def test_print_me():
 
 def test_plus_me():
 	assert(helloworld.plus_me(99) == 100)
+
+def test_minus_me():
+	assert(helloworld.minus_me(1) == 0)
