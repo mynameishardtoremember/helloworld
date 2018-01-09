@@ -2,10 +2,11 @@
 #!/usr/bin/env python
 
 def main(*unused_args):
-  print_me('hello world!')
+  msg = print_me('hello world!')
+  print msg
 
 def print_me(banner):
-  print banner
+  return banner
 
 if __name__ == '__main__':
   main()
