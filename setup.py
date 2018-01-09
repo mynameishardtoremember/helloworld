@@ -12,8 +12,6 @@ from setuptools import setup
 from pip.req import parse_requirements
 from pip.download import PipSession
 
-print find_packages()
-
 setup(
     name='HelloWorld',
     version='20180108',
