@@ -3,7 +3,7 @@ import pytest
 from helloworld import helloworld
 
 def test_print_me():
-	if helloworld.return_me('hi') != 'hi'):
+	if helloworld.return_me('hi') != 'hi':
 		raise AssertionError()
 
 def test_plus_me():
